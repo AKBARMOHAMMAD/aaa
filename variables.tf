@@ -50,3 +50,20 @@ variable "public_subnet_1_cidr" {
     description = "Secret Access key of AWS"
     type = string
   }
+
+  variable "aws_region" {
+  description = "The AWS region to use to create resources."
+  default     = "us-east-2"
+}
+
+variable "acl" {
+  default = "private"
+  description = "Default to private"
+  type = string
+}
+
+variable "bucket_prefix" {
+  default = "my-s3-bucket-"
+  description = "prefix name of bucket"
+  type = string
+}
