@@ -38,3 +38,15 @@ variable "public_subnet_1_cidr" {
    description = "Private subnet-4 CIDR Block"
    type = string
   }
+
+  variable "Access_key_ID" {
+    default = "AKIAWOJIJY26YCFQLXF6"
+    description = "Access key of aws"
+    type = string
+  }
+
+  variable "Secret_access_key" {
+    default = "8SPQvOir8F2wREedU9ucl3/EJmFT8U/lx+JPbKVg"
+    description = "Secret Access key of AWS"
+    type = string
+  }
