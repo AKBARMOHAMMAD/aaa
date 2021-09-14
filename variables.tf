@@ -55,15 +55,3 @@ variable "public_subnet_1_cidr" {
   description = "The AWS region to use to create resources."
   default     = "us-east-1"
 }
-
-variable "acl" {
-  default = "private"
-  description = "Default to private"
-  type = string
-}
-
-variable "bucket_prefix" {
-  default = "my-s3-bucket-"
-  description = "prefix name of bucket"
-  type = string
-}
