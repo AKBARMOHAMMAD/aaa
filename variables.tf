@@ -53,7 +53,7 @@ variable "public_subnet_1_cidr" {
 
   variable "aws_region" {
   description = "The AWS region to use to create resources."
-  default     = "us-east-2"
+  default     = "us-east-1"
 }
 
 variable "acl" {
