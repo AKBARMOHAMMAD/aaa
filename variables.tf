@@ -40,13 +40,11 @@ variable "public_subnet_1_cidr" {
   }
 
   variable "Access_key_ID" {
-    default = "AKIAWOJIJY26XITOJZ4V"
     description = "Access key of aws"
     type = string
   }
 
   variable "Secret_access_key" {
-    default = "vs0zMAvS5fSEi8o8q+HTLEH6/CJdTBI5gbXJKVWT"
     description = "Secret Access key of AWS"
     type = string
   }
