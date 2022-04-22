@@ -1,4 +1,4 @@
-#Create VPC
+/*#Create VPC
 resource "aws_vpc" "vpc" {
     cidr_block = "${var.vpc_cidr}"
     instance_tenancy = "default"
@@ -115,4 +115,4 @@ resource "aws_subnet" "private-subnet-4" {
     tags = {
       "name" = "Private subnet 4 | Database Tire"
    }
-}
+}*/
